@@ -1,0 +1,218 @@
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+:root{
+    --dackbgcolor: #1f2937;
+    --primarytextcolor: #f9faf8;
+    --secondartextcolor: #efe7eb;
+    --buttonclor: #3882f6;
+    
+}
+a{
+    text-decoration: none;
+    color: var(--secondartextcolor);
+    font-weight: normal;
+    font-size: 1.12rem;
+}
+a:hover{
+    color: var(--buttonclor);
+}
+.hero_box-img img{
+    width: 40%;
+    height: 400px;
+    max-width: 200px;
+}
+p{
+    font-size: 1.2rem;
+    color: var(--secondartextcolor);
+}
+h1{
+    color: var(--primarytextcolor);
+    font-size: 2.42rem;
+    padding-bottom: 0.58em;
+    line-height: 3rem;
+    font-weight: bolder;
+}.hover:hover{
+    padding-top: 0.5em;
+    border-top: 3px solid var(--buttonclor);
+    margin: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+    transition: 0.3s ease-in-out;
+    color: var(--buttonclor);
+}
+
+.container{
+    padding-top: 1em;
+    background-color: var(--dackbgcolor);
+    width: 100%;
+    padding-bottom: 6em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.nav{ 
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0.8em 0;
+
+}
+.nav_link li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.hero{
+    width: 90%;
+    margin: 0 auto;
+}
+.hero_box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin-top: 3em;
+    gap: 10px;
+}
+.hero_box-text{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.dummy{
+   margin:0 auto;
+   width: 10%;
+}
+.hero_box-img{
+    margin: 0 auto;
+    width: 40%;
+    
+    
+}
+button{
+    padding: 1.0em 2.5em;
+    background-color: var(--buttonclor);
+    width: 150px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: none;
+}
+button:hover{
+    background-color: var(--primarytextcolor);
+    border: 2px solid var(--buttonclor);
+    
+}
+.btn{
+    
+    font-weight: normal;
+    font-size: 1.12rem;
+}
+.hover1{
+    color : white;
+    font-size: 1rem;
+    border: .5px solid white;
+}.hover1:hover{
+    color: var(--buttonclor)
+}
+.btn:hover{
+    color: var(--buttonclor);
+}
+.container1{
+    padding-top: 1em;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.headtext{
+    padding-top: 1em;
+    text-align: center;
+    color: var(--dackbgcolor);
+    font-size: 1.2rem;
+}
+.contain{
+    margin: 0 ;
+    width: 150px;
+    height: 150px;
+    
+}
+.infore{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2em 3em 7em 3em;
+    
+}
+.infocont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 40px;
+    align-items: center;
+    padding-top: 2.95em;
+
+}
+.info{
+    width: 150px;
+    height: 150px;
+    border: 3px solid var(--buttonclor);
+    border-radius: 20px;
+    z-index: 5;
+}
+.container2{
+    padding-top: 2em;
+    background-color: var(--secondartextcolor);
+    width: 100%;
+    padding-bottom: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+blockquote{
+    width: 60%;
+    margin: 0 auto;
+    padding: 3em;
+    
+}
+blockquote cite{
+    margin: 0 auto;
+    width: 50%;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-size: 1rem;
+}
+.container3{
+    padding-top: 3em;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.new{
+    margin: 0 auto;
+    width: 90%;
+    padding: 5em;
+}
+.news{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--buttonclor);
+    padding: 2em 1em;
+    margin: 0;
+    border-radius: 10px;
+}
+.text{
+    margin: 0 auto;
+    width: 70%;
+    
+}
+.news_sign{
+    margin: 0 auto;
+}
